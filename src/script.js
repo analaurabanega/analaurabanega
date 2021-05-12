@@ -31,35 +31,35 @@ const app = new Vue({
     el: '#app',
     data:{
         firstCards:[
-             {
-                title : 'Inglés', 
+            {
+                title : 'asd', 
                 //ico : "fab fa-java fa-8x",
-                desc : 'En el año 2013 me otorgaron un reconocimiento al mejor promedio de la Promoción de ese año, en la Asociación Argentina de Cultura Inglesa',
-                link : ""
+                desc : '"Yo habito, tu habitas, el/ella ocupa: la visibilización de la situación del acceso a la tierra y la vivienda en América Latina" en el Boletín N°11 GJI-IRI p. 65',
+                link : "src/routes/r1.html"
             },
             {
-                title : 'Olimpíadas de Filosofía', 
+                title : 'Nota en UCActualidad N°166 - p. 23', 
                 //ico : "fab fa-java fa-8x",
-                desc : "En 2014 participé de las Olimpíadas Nacionales de Filosofía (UBA) donde obtuve el Segundo Puesto a nivel nacional en el Eje Político",
-                link : "https://www.unoentrerios.com.ar/salesiana-se-destaco-olimpiada-filosofia-n928066"
+                desc : "asd",
+                link : "src/routes/r2.html"
             },
             {
-                title : 'Diplomatura', 
+                title : 'Nota a ALAS EJ - FIQ UNL', 
                 //ico : "fab fa-java fa-8x",
-                desc : "En 2018, recibí una beca para el cursado de la Diplomatura en Gobernabilidad, Gerencia Política y Gestión Pública del Banco Americano de Desarrollo (CAF)",
-                link : ""
+                desc : "asd",
+                link : "http://www.fiq.unl.edu.ar/noticia/47608/alas_una_empresa_junior_que_ayuda_a_incorporar_herramientas_de_ingenier%C3%ADa_a_pymes.html"
             },
             {
-                title : 'Promedio', 
+                title : '"Populismo à la carte" en Revista Civitas VOL VIII', 
                 //ico : "fab fa-java fa-8x",
-                desc : "En 2019, fui seleccionada para recibir la beca por Promedio Elevado en el cursado regular de mi carrera",
-                link : ""
+                desc : "asd",
+                link : "src/routes/r3.html"
             },
             {
-                title : 'Ensayo', 
+                title : 'Presentación en las V Jornadas de Estrategia y Seguridad Internacional', 
                 //ico : "fab fa-java fa-8x",
-                desc : "En 2020, fui premiada con el 2° puesto, Categoría Junior, del III Concurso Federal de Ensayos del Grupo Joven del Consejo Argentino para las Relaciones Internacionales (CARI)",
-                link : "http://m.apfdigital.com.ar/despachos.asp?cod_des=346745
+                desc : "asd",
+                link : "https://drive.google.com/file/d/1DGI-uCM3YZwKGoavQdxQYZEpvnxgNQsh/view"
             },
             {
                 title : '', 
@@ -119,3 +119,20 @@ document.body.addEventListener("click", function(e) {
     }*/
 
 });
+
+document.body.addEventListener("keydown", function(e) {
+    console.log("name: "+e);
+});
+
+function rightSlice1(){
+
+    /*console.log(document.body.scrollLeft);
+    document.body.scrollLeft=10;
+    //console.log(document.body.scrollLeft());*/
+
+    //var elmnt = document.getElementById("card-container-1");
+    /*console.log(document.body.scrollLeft);
+    document.body.scrollLeft+=30;
+    console.log(document.body.scrollLeft);*/
+}
+
