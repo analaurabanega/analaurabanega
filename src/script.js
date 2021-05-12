@@ -13,7 +13,6 @@ Vue.component('project-card',{
         </div>
     `,
 });
-
 Vue.component('exp-note',{
     props: ['title', 'desc'],
     /*html*/
@@ -26,7 +25,6 @@ Vue.component('exp-note',{
         </li>
     `,
 });
-
 const app = new Vue({
     el: '#app',
     data:{
