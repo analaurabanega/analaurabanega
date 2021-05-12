@@ -40,7 +40,7 @@ const app = new Vue({
             {
                 title : 'Olimpíadas Nacionales de Filosofía', 
                 //ico : "fab fa-java fa-8x",
-                desc : "Año 2013, segundo puesto a nivel nacional, Eje Político, en las Olimpíadas de Filosofía de la Universidad Nacional de Buenos Aires",
+                desc : "Año 2014, segundo puesto a nivel nacional, Eje Político, en las Olimpíadas de Filosofía de la Universidad Nacional de Buenos Aires",
                 link : "https://www.unoentrerios.com.ar/salesiana-se-destaco-olimpiada-filosofia-n928066.html"
             },
             {
