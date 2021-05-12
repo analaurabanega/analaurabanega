@@ -35,7 +35,7 @@ const app = new Vue({
                 title : 'Inglés', 
                 //ico : "fab fa-java fa-8x",
                 desc : 'Año 2013, reconocimiento al mejor promedio de la Promoción, Asociación Argentina de Cultura Inglesa Director "Frank H. Etheridge" de Paraná',
-                link : "src/routes/r1.html"
+                link : "#"
             },
             {
                 title : 'Olimpíadas Nacionales de Filosofía', 
@@ -44,28 +44,28 @@ const app = new Vue({
                 link : "https://www.unoentrerios.com.ar/salesiana-se-destaco-olimpiada-filosofia-n928066.html"
             },
             {
-                title : 'Nota a ALAS EJ - FIQ UNL', 
+                title : 'Diplomatura', 
                 //ico : "fab fa-java fa-8x",
-                desc : "asd",
-                link : "http://www.fiq.unl.edu.ar/noticia/47608/alas_una_empresa_junior_que_ayuda_a_incorporar_herramientas_de_ingenier%C3%ADa_a_pymes.html"
-            },
-            {
-                title : '"Populismo à la carte" en Revista Civitas VOL VIII', 
-                //ico : "fab fa-java fa-8x",
-                desc : "asd",
-                link : "src/routes/r3.html"
-            },
-            {
-                title : 'Presentación en las V Jornadas de Estrategia y Seguridad Internacional', 
-                //ico : "fab fa-java fa-8x",
-                desc : "asd",
-                link : "https://drive.google.com/file/d/1DGI-uCM3YZwKGoavQdxQYZEpvnxgNQsh/view"
-            },
-            {
-                title : '', 
-                //ico : "fab fa-java fa-8x",
-                desc : "ad",
+                desc : "Año 2018, recibí una beca para el cursado de la Diplomatura en Gobernabilidad, Gerencia Política y Gestión Pública del Banco Americano de Desarrollo (CAF)",
                 link : "#"
+            },
+            {
+                title : 'Promedio', 
+                //ico : "fab fa-java fa-8x",
+                desc : "Año 2019, seleccionada para la 'Beca por Promedio Elevado' en el cursado regular de la Lic. en Relaciones Internacionales",
+                link : "#"
+            },
+            {
+                title : 'Promedio', 
+                //ico : "fab fa-java fa-8x",
+                desc : "Año 2020, seleccionada para el 'Premio Santander al mérito académico' del Banco Santander"
+                link : "https://www.santander.com.ar/banco/online/iu/universitarios/premios-y-becas/premio-al-merito-academico#002-Ganadores-2020.html"
+            },
+            {
+                title : 'Ensayo'
+                //ico : "fab fa-java fa-8x",
+                desc : "Año 2020, premiada en el III Concurso Federal de Ensayos del Grupo Joven del Consejo Argentino para las Relaciones Internacionales(CARI)'
+                link : "https://www.youtube.com/watch?v=1tVTN5_KpTk"
             },
         ],
         secondCards:[
