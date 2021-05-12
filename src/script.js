@@ -13,6 +13,7 @@ Vue.component('project-card',{
         </div>
     `,
 });
+
 Vue.component('exp-note',{
     props: ['title', 'desc'],
     /*html*/
@@ -25,11 +26,12 @@ Vue.component('exp-note',{
         </li>
     `,
 });
+
 const app = new Vue({
     el: '#app',
     data:{
         firstCards:[
-            {
+            {     
                 title : 'Inglés', 
                 //ico : "fab fa-java fa-8x",
                 desc : 'Año 2013, reconocimiento al mejor promedio de la Promoción, Asociación Argentina de Cultura Inglesa Director "Frank H. Etheridge" de Paraná',
@@ -102,9 +104,12 @@ const app = new Vue({
         ]
     }
 });
+
 document.body.addEventListener("click", function(e) {
+    
     //e.preventDefault();
     var eventName = String((e.target).className);
+    
     if( eventName == 'note-link' || eventName == 'aux') {
         e.preventDefault();
         //console.log('good');
@@ -112,14 +117,19 @@ document.body.addEventListener("click", function(e) {
     else{
         console.log(eventName);
     }*/
+    
 });
+
 document.body.addEventListener("keydown", function(e) {
     console.log("name: "+e);
 });
+
 function rightSlice1(){
+   
     /*console.log(document.body.scrollLeft);
     document.body.scrollLeft=10;
     //console.log(document.body.scrollLeft());*/
+    
     //var elmnt = document.getElementById("card-container-1");
     /*console.log(document.body.scrollLeft);
     document.body.scrollLeft+=30;
