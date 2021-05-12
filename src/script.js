@@ -34,7 +34,7 @@ const app = new Vue({
              {
                 title : 'Inglés', 
                 //ico : "fab fa-java fa-8x",
-                desc : 'En 2013 me otorgaron un reconocimiento al mejor promedio de la Promoción de ese año, en la Asociación Argentina de Cultura Inglesa',
+                desc : 'En el año 2013 me otorgaron un reconocimiento al mejor promedio de la Promoción de ese año, en la Asociación Argentina de Cultura Inglesa',
                 link : ""
             },
             {
