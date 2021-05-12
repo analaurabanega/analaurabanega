@@ -32,9 +32,9 @@ const app = new Vue({
     data:{
         firstCards:[
             {
-                title : 'asd', 
+                title : 'Inglés', 
                 //ico : "fab fa-java fa-8x",
-                desc : '"Yo habito, tu habitas, el/ella ocupa: la visibilización de la situación del acceso a la tierra y la vivienda en América Latina" en el Boletín N°11 GJI-IRI p. 65',
+                desc : 'Año 2013, reconocimiento al mejor promedio de la Promoción, Asociación Argentina de Cultura Inglesa Director "Frank H. Etheridge" de Paraná',
                 link : "src/routes/r1.html"
             },
             {
