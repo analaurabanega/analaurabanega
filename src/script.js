@@ -95,10 +95,10 @@ const app = new Vue({
             },*/
         ],
         exp: [
-            {title: 'ALAS Empresa Junior', desc: 'Liderazgo de la organización. Facilitación del diálogo intraorganizacional.'},
-            {title: 'Ateneo A.D.E.S.I.', desc: 'Liderazgo. Organización y supervisión de actividades y propuestas formativas.'},
-            {title: 'Cátedra "Historia Política de América', desc: 'Seguimiento de clases. Dictado de clase y acompañamiento de los y las estudiantes.'},
-            {title: 'Cátedra "Ciencia Política II"', desc: 'Dictado de clases. Adaptación del contenido a la virtualidad. Intervención con actividades y dinámicas.'},
+            {title: 'ALAS E.J.', desc: 'Liderazgo de la organización. Facilitación del diálogo intraorganizacional.'},
+            {title: 'A.D.E.S.I.', desc: 'Liderazgo. Organización y supervisión de actividades y propuestas formativas.'},
+            {title: 'Historia Política de América', desc: 'Seguimiento y dictado de clase. Acompañamiento de los y las estudiantes.'},
+            {title: 'Ciencia Política II', desc: 'Dictado de clases y adaptación del contenido. Intervención con actividades y dinámicas.'},
             /*{title: 'Title #5', desc: 'Text Content #5'},
             {title: 'Title #6', desc: 'Text Content #6'},*/
         ]
