@@ -58,14 +58,14 @@ const app = new Vue({
             {
                 title : 'Promedio', 
                 //ico : "fab fa-java fa-8x",
-                desc : "Año 2020, seleccionada para el 'Premio Santander al mérito académico' del Banco Santander"
+                desc : "Año 2020, seleccionada para el 'Premio Santander al mérito académico' del Banco Santander",
                 link : "https://www.santander.com.ar/banco/online/iu/universitarios/premios-y-becas/premio-al-merito-academico#002-Ganadores-2020.html"
             },
             {
-                title : 'Ensayo'
+                title : 'Ensayo',
                 //ico : "fab fa-java fa-8x",
-                desc : "Año 2020, premiada en el III Concurso Federal de Ensayos del Grupo Joven del Consejo Argentino para las Relaciones Internacionales(CARI)'
-                link : "https://www.youtube.com/watch?v=1tVTN5_KpTk"
+                desc : "Año 2020, premiada en el III Concurso Federal de Ensayos del Grupo Joven del Consejo Argentino para las Relaciones Internacionales(CARI)",
+                link : "https://www.youtube.com/watch?v=1tVTN5_KpTk.html"
             },
         ],
         secondCards:[
