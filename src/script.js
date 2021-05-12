@@ -105,3 +105,23 @@ const app = new Vue({
 document.body.addEventListener("click", function(e) {
     //e.preventDefault();
     var eventName = String((e.target).className);
+    if( eventName == 'note-link' || eventName == 'aux') {
+        e.preventDefault();
+        //console.log('good');
+    }/*
+    else{
+        console.log(eventName);
+    }*/
+});
+document.body.addEventListener("keydown", function(e) {
+    console.log("name: "+e);
+});
+function rightSlice1(){
+    /*console.log(document.body.scrollLeft);
+    document.body.scrollLeft=10;
+    //console.log(document.body.scrollLeft());*/
+    //var elmnt = document.getElementById("card-container-1");
+    /*console.log(document.body.scrollLeft);
+    document.body.scrollLeft+=30;
+    console.log(document.body.scrollLeft);*/
+}
