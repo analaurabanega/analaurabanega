@@ -10,7 +10,7 @@ ul,li{
   list-style:none;
 }
 ul{
-  display: flex !important;
+  display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   overflow:hidden;
@@ -73,11 +73,51 @@ ul li a:hover,ul li a:focus{
 @media (max-width: 575px)/* and (max-width:992px) */{ /*celulares*/
 
   ul{
+    /*display: grid;
+    grid-template-areas: 'pizarra';
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    justify-items: center;*/
+    display: block;
+    grid-template-columns: none;
+    overflow-x: scroll;
+    white-space: nowrap;
+    width: 100%;
+    /*padding: 20px 4px ;*/
     position: relative;
   }
 
   li{
-    position: absolute;
+    /*position: absolute;
+    grid-area: pizarra;*/
+    display: inline-block; 
+    white-space: normal;
+    -o-transform:rotate(-4deg);
+    -webkit-transform:rotate(-4deg);
+    -moz-transform:rotate(-4deg); 
+    width: auto;
+    margin: 2em -30% 2em 10px;
+    position: static;    
   }
 
+  ul li:nth-child(even) a{
+    position:relative;
+    /*top:5px;*/
+    background:#cfc;
+  }
+  ul li:nth-child(3n) a{
+    position:relative;
+    /*top:-5px;*/
+    background:#ccf;
+  }
+
+  ul li:hover, ul li:focus{
+
+    -o-transform:rotate(0deg);
+    -webkit-transform:rotate(0deg);
+    -moz-transform:rotate(0deg);
+    /*position: absolute;*/
+    /*z-index: 20;*/
+    margin: 2em 15%;
+  }
 }
