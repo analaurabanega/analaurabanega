@@ -38,10 +38,10 @@ const app = new Vue({
                 link : "src/routes/r1.html"
             },
             {
-                title : 'Nota en UCActualidad N°166 - p. 23', 
+                title : 'Olimpíadas Nacionales de Filosofía', 
                 //ico : "fab fa-java fa-8x",
-                desc : "asd",
-                link : "src/routes/r2.html"
+                desc : "Año 2013, segundo puesto a nivel nacional, Eje Político, en las Olimpíadas de Filosofía de la Universidad Nacional de Buenos Aires",
+                link : "https://www.unoentrerios.com.ar/salesiana-se-destaco-olimpiada-filosofia-n928066.html"
             },
             {
                 title : 'Nota a ALAS EJ - FIQ UNL', 
