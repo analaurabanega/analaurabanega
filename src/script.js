@@ -70,22 +70,22 @@ const app = new Vue({
         ],
         secondCards:[
             {
-                title : '', 
+                title : 'China, la emperatriz dormida', 
                 //ico : "fab fa-java fa-8x",
-                desc : "ad",
-                link : "#"
+                desc : "Artículo de opinión publicado en Revista Civitas. Reproducido por Análisis Digital",
+                link : "https://www.analisisdigital.com.ar/opinion/2020/05/27/china-la-emperatriz-dormida.html"
             },
             {
-                title : '', 
+                title : 'Hacia una construcción mancomunada del orden mundial post pandemia', 
                 //ico : "fab fa-java fa-8x",
-                desc : "ad",
-                link : "#"
+                desc : "Ensayo ganador en el III Concurso Federal de Ensayos del CARI. Reproducido por Análisis Digital",
+                link : "https://www.analisisdigital.com.ar/opinion/2020/09/09/hacia-una-construccion-mancomunada-del-orden-mundial-post-pandemia.html"
             },
             {
-                title : '', 
+                title : 'Yo habito, tu habitas, el/ella ocupa: la visibilización de la situación del acceso a la tierra y a la vivienda en América Latina', 
                 //ico : "fab fa-java fa-8x",
-                desc : "ad",
-                link : "#"
+                desc : "Artículo escrito para el Boletín N°11 del Grupo de Jóvenes Investigadores del IRI-UNLP.",
+                link : "http://sedici.unlp.edu.ar/handle/10915/117603.html"
             },
             /*{
                 title : '', 
